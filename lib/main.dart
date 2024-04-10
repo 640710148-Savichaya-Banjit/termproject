@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:termproject/login/loginpage.dart';
-import 'package:termproject/page/homepage.dart';
-import 'package:termproject/page/movie.dart';
-import 'package:termproject/page/user.dart';
-import 'package:termproject/page/vdomovie.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +22,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color(0xFFB71C1C),
         ),
       ),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
